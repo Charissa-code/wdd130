@@ -29,8 +29,8 @@ aside img {
 
 aside h2 {
     position: absolute;
-    top: 13px;
-    left: 30px;
+    top: 30px;
+    left: 32px;
 
 }
 
@@ -81,7 +81,7 @@ footer {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 10%);
     padding: 1rem;
-    color: #c29631;
+    color: #f1b324;
     background-color: rgb(249, 244, 230);
 
 }
