@@ -8,7 +8,7 @@
     --primary-color: #436ea4;
     --secondary-color: #857c9a;
     --accent1-color: #547251;
-    --accent2-color: #e9c46a;
+    --accent2-color: #fbe3a5;
     --heading-font: "Baskerville," "Georgia" "serif";
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -50,6 +50,7 @@ article {
 
 .hero {
     position: relative;
+    background-color: var(--accent2-color);
 }
 
 .hero img {
@@ -58,7 +59,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 10px;
     width: 100%;
@@ -70,8 +71,10 @@ h1 {
 }
 
 .hero article img {
+    position: absolute;
     float: right;
-    width: 125px;
+    width: 100px;
+    height: auto;
 }
 
 /* }
