@@ -89,14 +89,25 @@ article {
 .section-history {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     justify-content: center;
     border: 2px solid black;
 
 }
 
-.section-history h2 {
+h2 {
     text-align: center;
+    margin-top: 1rem;
 
+}
+
+.section-history img {
+    grid-column: 2/3;
+
+}
+
+.section-history p {
+    text-align: center;
 }
 
 .socialmedia a {
