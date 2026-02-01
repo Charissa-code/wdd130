@@ -6,9 +6,8 @@
 
 :root {
     --primary-color: #0a213d;
-    --secondary-color: rgb(229, 246, 225);
-    --accent2-color: white;
-    --accent3-color: rgb(4, 10, 17);
+    --secondary-color: #e5f6e1;
+    --accent2-color: #ffffff;
     --heading-font: "Baskerville," "Georgia" "serif";
     --body-font: Arial, Helvetica, sans-serif;
 }
