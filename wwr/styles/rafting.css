@@ -116,7 +116,7 @@ article {
     opacity: .75;
     background-color: rgb(231, 240, 226);
     font: var(--body-font);
-
+    color: var(--primary-color)
 }
 
 .hero {
