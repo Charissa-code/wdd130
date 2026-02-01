@@ -6,7 +6,7 @@
 
 :root {
     --primary-color: #0a213d;
-    --secondary-color: rgb(242, 248, 238);
+    --secondary-color: rgb(229, 246, 225);
     --accent1-color: #1e2e1d;
     --accent2-color: white;
     --accent3-color: rgb(4, 10, 17);
@@ -47,9 +47,9 @@ nav li {
 
 nav a {
     display: block;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     box-shadow: black solid 20px;
-    color: white;
+    color: var(--primary-color);
     text-align: center;
     padding: .3rem;
     border: 1px solid var(--primary-color);
