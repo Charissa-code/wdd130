@@ -7,7 +7,6 @@
 :root {
     --primary-color: #0a213d;
     --secondary-color: rgb(229, 246, 225);
-    --accent1-color: #1e2e1d;
     --accent2-color: white;
     --accent3-color: rgb(4, 10, 17);
     --heading-font: "Baskerville," "Georgia" "serif";
@@ -31,7 +30,7 @@ header img {
 }
 
 nav {
-    background-color: none;
+    background-color: var(--primary-color);
 }
 
 nav ul {
@@ -48,7 +47,6 @@ nav li {
 nav a {
     display: block;
     background-color: var(--secondary-color);
-    box-shadow: black solid 20px;
     color: var(--primary-color);
     text-align: center;
     padding: .3rem;
@@ -66,7 +64,7 @@ footer {
 
 main,
 footer {
-    background-color: white;
+    background-color: var(--accent2-color);
 }
 
 h1,
@@ -129,7 +127,7 @@ article {
     display: block;
     width: 100%;
     height: auto;
-    border: 5px var(--accent1-color)
+    border: 5px var(--primary-color)
 }
 
 .hero h1 {
@@ -140,7 +138,7 @@ article {
     text-align: center;
     color: var(--primary-color);
     opacity: .75;
-    background-color: white;
+    background-color: var(--accent2-color);
 }
 
 .hero article img {
