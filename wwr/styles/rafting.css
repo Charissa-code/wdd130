@@ -98,11 +98,12 @@ article {
 
 .his-left {
     grid-column: 1/2;
-
+    font: var(--body-font)
 }
 
 .his-right {
     grid-column: 3/4;
+    font: var(--body-font)
 }
 
 .history-img {
@@ -115,6 +116,7 @@ article {
     top: 355px;
     opacity: .75;
     background-color: rgb(231, 240, 226);
+    font: var(--body-font);
 
 }
 
@@ -139,12 +141,14 @@ article {
     color: var(--primary-color);
     opacity: .75;
     background-color: var(--accent2-color);
+
 }
 
 .hero article img {
     float: right;
     width: 100px;
     margin: 5px;
+    font: var(--body-font);
 
 }
 
@@ -173,6 +177,7 @@ footer {
     grid-template-columns: 650px 1fr;
     align-items: center;
     justify-items: center;
+    font: var(--heading-font);
 
 }
 
