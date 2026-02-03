@@ -114,7 +114,7 @@ article {
     position: absolute;
     top: 355px;
     opacity: .9;
-    background-color: rgb(231, 240, 226);
+    background-color: var(--secondary-color);
     font: var(--body-font);
     color: var(--primary-color)
 }
@@ -171,7 +171,7 @@ article {
 
 footer {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--accent2-color);
     display: grid;
     grid-template-columns: 650px 1fr;
     align-items: center;
