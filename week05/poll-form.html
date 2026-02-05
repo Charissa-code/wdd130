@@ -7,33 +7,48 @@
     <title>WDD 130</title>
     <link rel="stylesheet" href="styles/poll-form.css">
 </head>
-<header>
 
+<header>
+    <h1>WWD 130 | HTML Poll Form</h1>
 </header>
 
-<main>
-    <form>
-        <label>Full Name: <input type="text" name="fullname" required></label>
-        <label>Email: <input type="email" name="useremail" required></label>
-
-        <label for="browser">What is your favorite browser?</label>
-        <select name="browser" id="browser">
-            <option value="Chrome">Chrome</option>
-            <option value="Safari">Safari</option>
-            <option value="Edge">Edge</option>
-        </select>
-
-        <label for="pet">Do you have a household pet?</label>
-        <input type="checkbox" name="pet" id="pet">
-
-        <label for="feedback">List the places you have lived.</label>
-        <textarea id="feedback" name="feedback" rows="4" placeholder=""></textarea>
-
-        <button type="submit">Submit Poll</button>
-    </form>
-
-</main>
-
+<body>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-item column2">
+                    <label>Full Name: <input type="text" name="fullname" required></label>
+                </div>
+                <div class="form-item column2">
+                    <label>Email: <input type="email" name="useremail" required></label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="form-item column1">
+                    <label for="browser">What is your favorite browser?</label>
+                    <select name="browser" id="browser">
+                        <option value="Chrome">Chrome</option>
+                        <option value="Safari">Safari</option>
+                        <option value="Edge">Edge</option>
+                        <select>
+                </div>
+                <div class="form-item column1">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" name="pet" id="pet">
+                </div>
+                <div class="form-item">
+                    <label for="feedback">List the places you have lived:</label>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder=""></textarea>
+                </div>
+                <div class="form-item">
+                    <button type="submit">Submit Poll</button>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+</body>
 <footer></footer>
 
 </html>
