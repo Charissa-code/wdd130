@@ -34,11 +34,22 @@ form {
 
 fieldset {
     display: grid;
-    gap: .5rem;
+    gap: .3rem;
     border: 1px solid #000;
     margin: 10px;
     padding: 30px;
 
+}
+
+legend {
+    padding: .3rem;
+    color: rgb(6, 6, 190);
+    font-size: 2rem;
+}
+
+label {
+    text-align: right;
+    padding-right: 2rem;
 }
 
 label,
