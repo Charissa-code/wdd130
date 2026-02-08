@@ -81,7 +81,6 @@ footer {
 
 h1,
 h2 {
-
     font-family: var(--heading-font);
     color: var(--primary-color);
     text-align: center;
@@ -160,7 +159,6 @@ input::placeholder {
 }
 
 input:hover {
-
     background-color: rgb(250, 226, 206);
 }
 
@@ -271,12 +269,12 @@ article {
 
 .his-left {
     grid-column: 1/2;
-    font: var(--body-font)
+    font: var(--body-font);
 }
 
 .his-right {
     grid-column: 3/4;
-    font: var(--body-font)
+    font: var(--body-font);
 }
 
 .history-img {
@@ -290,7 +288,7 @@ article {
     opacity: .9;
     background-color: var(--secondary-color);
     font: var(--body-font);
-    color: var(--primary-color)
+    color: var(--primary-color);
 }
 
 .hero {
@@ -302,7 +300,7 @@ article {
     display: block;
     width: 100%;
     height: auto;
-    border: 5px var(--primary-color)
+    border: 5px var(--primary-color);
 }
 
 .hero h1 {
@@ -322,7 +320,6 @@ article {
     width: 100px;
     margin: 5px;
     font: var(--body-font);
-
 }
 
 .adventure {
@@ -351,7 +348,6 @@ footer {
     align-items: center;
     justify-items: center;
     font: var(--heading-font);
-
 }
 
 .socialmedia {
