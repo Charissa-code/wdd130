@@ -176,6 +176,7 @@ textarea:hover {
 
 textarea {
     width: 325px;
+    margin-left: 22px;
 }
 
 button {
@@ -185,6 +186,7 @@ button {
     background-color: var(--primary-color);
     color: var(--accent2-color);
     border-radius: 20px;
+    margin-left: 22px;
 
 }
 
