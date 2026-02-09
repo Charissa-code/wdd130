@@ -63,7 +63,7 @@ header,
 main,
 footer {
     width: 840px;
-    margin-top: 0 auto;
+    margin: 0 auto;
 }
 
 main,
@@ -78,15 +78,17 @@ footer {
     grid-gap: 20px;
 }
 
-h1,
-h2 {
+h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     text-align: center;
+    margin-top: 18px;
 }
 
 main h2 {
     font-size: 18px;
+    margin-top: 15px;
+    text-align: center;
 }
 
 main img {
