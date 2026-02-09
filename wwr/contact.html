@@ -45,16 +45,27 @@
                 <input type="text" id="email" name="email" placeholder="Email">
             </div>
             <div class="row">
-                <div class="radio-group">
-                </div><label>Message Purpose</label>
-                <label><input type="radio" id="radio" name="radio">General Inquiry</label>
-                <label><input type="radio" name="radio">Reservation Question</label>
-                <label><input type="radio" name="radio">Website Suggestion</label>
+                <div class="radio-mess">
+                    <p>Message Purpose</p>
+                </div>
+
+                <div class="radio-gen-inq">
+                    <input type="radio" id="radio-gen" name="radio">General Inquiries
+                </div>
+
+                <div class="radio-res-q">
+                    <input type="radio" id="radio-res-q" name="radio">Reservation Questions
+                </div>
+                <div class="radio-web-sug">
+                    <input type="radio" id="radio-web-sug" name="radio">Web Suggestions
+                </div>
+
+
             </div>
             <div class="message">
                 <label for="message">Message</label>
                 <textarea name="message" id="message" placeholder="Message"
-                  maxlength="300"></textarea>
+                  maxlength="500"></textarea>
             </div>
             <div class="subscribe">
                 <label><input type="checkbox" name="subscribe" id="subscribe">Subscribe to
