@@ -71,18 +71,21 @@ footer {
     background-color: var(--accent2-color);
 }
 
-.home-grid {
-    display: grid;
-    grid-template-columns: 400px 400px;
-    grid-template-rows: 150px 400px 300px;
-    grid-gap: 20px;
-}
-
 h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     text-align: center;
     margin-top: 18px;
+    z-index: 3;
+}
+
+/* contact page main grid layout */
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 150px 400px 300px;
+    grid-gap: 20px;
 }
 
 main h2 {
@@ -100,12 +103,16 @@ main img {
     border-radius: .3rem;
 }
 
+/*  contact page form */
+
 form {
     grid-column: 2/3;
     grid-row: 2/3;
     padding: .3rem;
     font-size: 17px;
     align-self: center;
+    background-color: 5px solid var(--secondary-color);
+    margin: 5px;
 }
 
 label {
@@ -187,7 +194,6 @@ button {
     color: var(--accent2-color);
     border-radius: 20px;
     margin-left: 22px;
-
 }
 
 .subscribe {
@@ -196,6 +202,8 @@ button {
     font-size: 18px;
 }
 
+/* contact page end of form */
+/* contact page  placement */
 .flex-container {
     height: 250px;
     width: 800px;
@@ -239,6 +247,9 @@ section {
     height: auto;
 
 }
+
+/* end of contact page */
+/* beginning of about page */
 
 nav,
 p,
@@ -336,6 +347,9 @@ article {
     margin: 0;
 }
 
+/* end of about page */
+/* beginning of sticky footer */
+
 footer {
     background-color: var(--primary-color);
     color: var(--accent2-color);
@@ -356,4 +370,16 @@ footer {
 .socialmedia img {
     width: 40px;
     height: 40px;
+}
+
+/* Home Page */
+
+#home-grid {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+}
+
+.h-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
